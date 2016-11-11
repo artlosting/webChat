@@ -1,0 +1,8 @@
+信息表：
+id sender getter content sendTime isGet(0表示还没有接受，1表示已经接受)
+
+create database webChat;
+create table message(id int primary key auto_increment,sender varchar(64),getter varchar(64),content varchar(3600),sendTime datetime,isGet tinyint(4));
+
+用户表：
+schoolid 名字 信息 isLogin
